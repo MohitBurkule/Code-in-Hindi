@@ -1,0 +1,16 @@
+python
+अजगर
+cd अजगर
+cd Code-in-Hindi\
+ls
+git push -m "get name of input file"
+git commit -m "get name of input file"
+python अजगर.py 
+python अजगर.py newfile.py
+python अजगर.py input.py
+python अजगर.py input_hindi.py
+git status
+gti add .
+git add .
+git commit -m "simple prototype"
+git push
