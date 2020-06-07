@@ -1,2 +1,3 @@
-# अब, कोड लिखें  हिंदी में
- ( Python wrapper for hindi language  )
+#अजगर
+अब, कोड लिखें  हिंदी में
+( Python wrapper for hindi language  )
