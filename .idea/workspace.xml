@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df78de43-057b-4858-89e4-70746ea5b758" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/अजगर.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/अजगर.py" beforeDir="false" afterPath="$PROJECT_DIR$/अजगर.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +16,11 @@
       <file leaf-file-name="अजगर.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/अजगर.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="544">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,8 +113,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/अजगर.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="544">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
