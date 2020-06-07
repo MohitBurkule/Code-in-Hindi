@@ -1,7 +1,6 @@
 import sys
 import copy
 import os
-from HindiTokenizer import Tokenizer
 
 mapping={
     "int":"संख्या",
@@ -19,8 +18,6 @@ mapping={
     "input ":"लो ",
 }
 def convertToEnglish(line):
-    t=Tokenizer(line)
-    print(t.print_tokens(line))
     for key,value in mapping.items():
         line=line.replace(value,key)
     return line
