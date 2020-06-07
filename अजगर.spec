@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['अजगर.py'],
-             pathex=['/mnt/d/Downloads/cmder_mini/अजगर/Code-in-Hindi'],
+             pathex=['D:\\Downloads\\cmder_mini\\अजगर\\Code-in-Hindi'],
              binaries=[],
              datas=[],
              hiddenimports=[],

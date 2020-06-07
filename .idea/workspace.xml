@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df78de43-057b-4858-89e4-70746ea5b758" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/अजगर/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/अजगर/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/अजगर/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/अजगर/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/अजगर/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/अजगर/PKG-00.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/अजगर/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/अजगर/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/अजगर/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/अजगर/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/अजगर/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/अजगर/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/अजगर/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/अजगर/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/अजगर/warn-अजगर.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/अजगर/warn-अजगर.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/अजगर/xref-अजगर.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/अजगर/xref-अजगर.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_hindi.py" beforeDir="false" afterPath="$PROJECT_DIR$/input_hindi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/अजगर.py" beforeDir="false" afterPath="$PROJECT_DIR$/अजगर.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/अजगर.spec" beforeDir="false" afterPath="$PROJECT_DIR$/अजगर.spec" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,25 +26,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="अजगर.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="अजगर.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/अजगर.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            <state relative-caret-position="374">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,8 +53,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/अजगर.py" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/अजगर.py" />
       </list>
     </option>
   </component>
@@ -85,6 +85,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -106,10 +107,10 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -125,22 +126,22 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/अजगर.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/अजगर.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
