@@ -1,7 +1,7 @@
 import sys
 import copy
 import os
-
+import re
 mapping={
     "int":"संख्या",
     "def":"परिभाषा",
@@ -18,9 +18,12 @@ mapping={
     "input ":"लो ",
 }
 def convertToEnglish(line):
+    sline=re.split(r'\"(.*?)\"', line)
+    #print(sline)
     for key,value in mapping.items():
-        line=line.replace(value,key)
-    return line
+        for i in range(0,len(sline),2):
+            sline[i]=sline[i].replace(value,key)
+    return '"'.join(sline)
 
 def convertExceptionToEnglish(e):
         e=str(e)
