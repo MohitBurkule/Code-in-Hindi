@@ -19,6 +19,10 @@ mapping={
     "input ":"लो ",
 }
 
+___Remove_Single_line_comment___=False
+___Multiline_comment_started___=False
+
+
 def extractDoubleQuoteStrings(line):
     dstrs=re.findall(r'\"(.*?)\"',line)
     dmap=dict()
@@ -51,10 +55,23 @@ def restoreDoubleQuoteStrings(line,dmap):
 def removeSingleLineComment(line):
     line=re.split(r'#[^\n]*',line)
     return ''.join(line)
+def removeMultiLineComment(line):
+    #TODO
+    global ___Multiline_comment_started___
+
+    detect=re.split(r"\'\'\'",line)
+    if(len(detect)>1):
+        print(detect)
+    return line
+
+
 def preprocessLine(line):
     line,dmap=extractDoubleQuoteStrings(line)
     line,smap=extractSingleQuoteStrings(line)
-    line=removeSingleLineComment(line)
+    if(___Remove_Single_line_comment___):
+        line=removeSingleLineComment(line)
+    
+    #line=removeMultiLineComment(line)
     string_handling_maps=[dmap,smap]
     return line,string_handling_maps
 
