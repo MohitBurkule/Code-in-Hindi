@@ -2,6 +2,7 @@ import sys
 import copy
 import os
 import re
+import random
 mapping={
     "int":"संख्या",
     "def":"परिभाषा",
@@ -17,13 +18,65 @@ mapping={
     "while":"जब_तक",
     "input ":"लो ",
 }
-def convertToEnglish(line):
-    sline=re.split(r'\"(.*?)\"', line)
-    #print(sline)
+
+def extractDoubleQuoteStrings(line):
+    dstrs=re.findall(r'\"(.*?)\"',line)
+    dmap=dict()
+    for dstr in dstrs:
+        intId=random.randint(0,10000)
+        id='__code_in_hindi_double_quotes'+str(intId)+'__'
+        dmap[id]=dstr
+        line=line.replace(dstr,id)
+    return line,dmap
+
+
+def extractSingleQuoteStrings(line):
+    sstrs=re.findall(r"\'(.*?)\'",line)
+    smap=dict()
+    for sstr in sstrs:
+        intId=random.randint(0,10000)
+        id='__code_in_hindi_single_quotes'+str(intId)+'__'
+        smap[id]=sstr
+        line=line.replace(sstr,id)
+    return line,smap
+
+def restoreSingleQuoteStrings(line,smap):
+    for id,sstr in smap.items():
+        line=line.replace(id,sstr)
+    return line
+def restoreDoubleQuoteStrings(line,dmap):
+    for id,dstr in dmap.items():
+        line=line.replace(id,dstr)
+    return line
+def removeSingleLineComment(line):
+    line=re.split(r'#[^\n]*',line)
+    return ''.join(line)
+def preprocessLine(line):
+    line,dmap=extractDoubleQuoteStrings(line)
+    line,smap=extractSingleQuoteStrings(line)
+    line=removeSingleLineComment(line)
+    string_handling_maps=[dmap,smap]
+    return line,string_handling_maps
+
+def postprocessLine(line,string_handling_maps):
+    dmap=string_handling_maps[0]
+    smap=string_handling_maps[1]
+    line=restoreSingleQuoteStrings(line,smap)
+    line=restoreDoubleQuoteStrings(line,dmap)
+    return line
+
+def convertLexemesToTarget(line):
     for key,value in mapping.items():
-        for i in range(0,len(sline),2):
-            sline[i]=sline[i].replace(value,key)
-    return '"'.join(sline)
+        line=line.replace(value,key)
+    return line
+
+
+def convertToEnglish(line):
+    line,string_handling_maps=preprocessLine(line)
+    line=convertLexemesToTarget(line)
+    line=postprocessLine(line,string_handling_maps)
+
+    return line
 
 def convertExceptionToEnglish(e):
         e=str(e)
