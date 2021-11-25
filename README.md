@@ -3,14 +3,18 @@
 ( Python wrapper for hindi language  )
 
 Exe in output folder 
+
 #WHY?
+
 Because there are many students who dont know proper english 
 Hindi or any  local language is closer to them and they can understand code better if it is in their local language
 
 #What is it ?
+
 It is a wrapper around standard python which allows users to type the code in HINDI language 
 
 #Usage
+
 अजगर input_hindi.py
 
 where 
@@ -43,6 +47,7 @@ example of input_hindi.py
 ```
 
 #HOW does it work?
+
 It simply has a mapping which converts hindi words to their corresponding english words and then runs python interpretor behind the scenes 	
 
 #Issues
