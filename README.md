@@ -1,7 +1,7 @@
 # अजगर
 अब, कोड लिखें  हिंदी में
 ( Python wrapper for hindi language  )
-
+#work in progress#
 Exe in output folder 
 
 #WHY?
