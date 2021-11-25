@@ -41,9 +41,11 @@ example of input_hindi.py
 
 छापो ("आपकी संख्या है :", कम)
 ```
+
 #HOW does it work?
 It simply has a mapping which converts hindi words to their corresponding english words and then runs python interpretor behind the scenes 	
-#issues
+
+#Issues
 1) Only a few python keywords have their corresponding hindi word 
 2) default packages and methods also need to be converted to hindi 
 3) errors are still shown in english
