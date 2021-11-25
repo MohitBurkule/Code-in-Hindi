@@ -6,7 +6,7 @@ Exe in output folder
 
 #WHY?
 
-Because there are many students who dont know proper english 
+Because there are many students who don't know proper english .
 Hindi or any  local language is closer to them and they can understand code better if it is in their local language
 
 #What is it ?
