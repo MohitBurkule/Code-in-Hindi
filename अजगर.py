@@ -17,6 +17,7 @@ mapping={
     "elif":"या",
     "while":"जब_तक",
     "input ":"लो ",
+    ".lower":'.छोटा '
 }
 
 ___Remove_Single_line_comment___=False
