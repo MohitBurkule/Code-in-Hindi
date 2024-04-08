@@ -1,19 +1,18 @@
 # अजगर
 अब, कोड लिखें  हिंदी में
 ( Python wrapper for hindi language  )
-#work in progress#
 Exe in output folder 
 
-#WHY?
+# WHY?
 
 Because there are many students who don't know proper english .
 Hindi or any  local language is closer to them and they can understand code better if it is in their local language
 
-#What is it ?
+# What is it ?
 
 It is a wrapper around standard python which allows users to type the code in HINDI language 
 
-#Usage
+# Usage
 
 अजगर input_hindi.py
 
@@ -46,11 +45,11 @@ example of input_hindi.py
 छापो ("आपकी संख्या है :", कम)
 ```
 
-#HOW does it work?
+# HOW does it work?
 
 It simply has a mapping which converts hindi words to their corresponding english words and then runs python interpretor behind the scenes 	
 
-#Issues
+# Issues
 1) Only a few python keywords have their corresponding hindi word 
 2) default packages and methods also need to be converted to hindi 
 3) errors are still shown in english
